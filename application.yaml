@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Mohit-d13/GITOPS-ARGOCD-DEMO.git
     targetRevision: HEAD
-    path: kubernetes-mainfest
+    path: Kubernetes-manifest
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd-demo-ns
